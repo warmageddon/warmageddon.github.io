@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ddd;
+}
+#canvas-container {
+  text-align: center;
+}
+canvas {
+  display: inline;
+}
+#slider-container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.slider {
+  display: inline-block;
+  width: 300px;
+  height: 8px;
+  border: solid 1px #000;
+  border-radius: 4px;
+}
+.thumb {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 4px;
+  position: relative;
+  top: -1px;
+  left: 293px;
+}
